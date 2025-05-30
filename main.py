@@ -82,6 +82,7 @@ def main(clean, quiet):
         config_path=script_path,
         data_paths=[silver_path, gold_path],
         file_endings=(".geojson", ".json"),
+        git_lfs=True
     )
 
     generate_data_product_canvas(
