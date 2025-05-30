@@ -1,0 +1,917 @@
+---
+attribute_groups:
+  t1: &t1
+    - name: inhabitants
+    - name: inhabitants_with_migration_background
+    - name: inhabitants_germans
+    - name: inhabitants_germans_without_migration_background
+    - name: inhabitants_germans_with_migration_background
+    - name: inhabitants_foreigners
+    - { name: inhabitants_per_sqkm, numerator: inhabitants, denominator_area_sqkm: True }
+    - { name: inhabitants_with_migration_background_per_sqkm, numerator: inhabitants_with_migration_background, denominator_area_sqkm: True }
+    - { name: inhabitants_germans_per_sqkm, numerator: inhabitants_germans, denominator_area_sqkm: True }
+    - { name: inhabitants_germans_without_migration_background_per_sqkm, numerator: inhabitants_germans_without_migration_background, denominator_area_sqkm: True }
+    - { name: inhabitants_germans_with_migration_background_per_sqkm, numerator: inhabitants_germans_with_migration_background, denominator_area_sqkm: True }
+    - { name: inhabitants_foreigners_per_sqkm, numerator: inhabitants_foreigners, denominator_area_sqkm: True }
+    - name: inhabitants_percentage
+    - name: inhabitants_with_migration_background_percentage
+    - name: inhabitants_germans_percentage
+    - name: inhabitants_germans_without_migration_background_percentage
+    - name: inhabitants_germans_with_migration_background_percentage
+    - name: inhabitants_foreigners_percentage
+  t2: &t2
+    - name: inhabitants
+    - name: inhabitants_age_below_6
+    - name: inhabitants_age_6_15
+    - name: inhabitants_age_15_18
+    - name: inhabitants_age_18_27
+    - name: inhabitants_age_27_45
+    - name: inhabitants_age_45_55
+    - name: inhabitants_age_55_65
+    - name: inhabitants_age_above_65
+    - name: inhabitants_female
+    - name: inhabitants_foreigners
+    - { name: inhabitants_per_sqkm, numerator: inhabitants, denominator_area_sqkm: True }
+    - { name: inhabitants_age_below_6_per_sqkm, numerator: inhabitants_age_below_6, denominator_area_sqkm: True }
+    - { name: inhabitants_age_6_15_per_sqkm, numerator: inhabitants_age_6_15, denominator_area_sqkm: True }
+    - { name: inhabitants_age_15_18_per_sqkm, numerator: inhabitants_age_15_18, denominator_area_sqkm: True }
+    - { name: inhabitants_age_18_27_per_sqkm, numerator: inhabitants_age_18_27, denominator_area_sqkm: True }
+    - { name: inhabitants_age_27_45_per_sqkm, numerator: inhabitants_age_27_45, denominator_area_sqkm: True }
+    - { name: inhabitants_age_45_55_per_sqkm, numerator: inhabitants_age_45_55, denominator_area_sqkm: True }
+    - { name: inhabitants_age_55_65_per_sqkm, numerator: inhabitants_age_55_65, denominator_area_sqkm: True }
+    - { name: inhabitants_age_above_65_per_sqkm, numerator: inhabitants_age_above_65, denominator_area_sqkm: True }
+    - { name: inhabitants_female_per_sqkm, numerator: inhabitants_female, denominator_area_sqkm: True }
+    - { name: inhabitants_foreigners_per_sqkm, numerator: inhabitants_foreigners, denominator_area_sqkm: True }
+    - name: inhabitants_percentage
+    - name: inhabitants_age_below_6_percentage
+    - name: inhabitants_age_6_15_percentage
+    - name: inhabitants_age_15_18_percentage
+    - name: inhabitants_age_18_27_percentage
+    - name: inhabitants_age_27_45_percentage
+    - name: inhabitants_age_45_55_percentage
+    - name: inhabitants_age_55_65_percentage
+    - name: inhabitants_age_above_65_percentage
+    - name: inhabitants_female_percentage
+    - name: inhabitants_foreigners_percentage
+  t3: &t3
+    - name: inhabitants
+    - name: inhabitants_with_migration_background_age_below_6
+    - name: inhabitants_with_migration_background_age_6_15
+    - name: inhabitants_with_migration_background_age_15_18
+    - name: inhabitants_with_migration_background_age_18_27
+    - name: inhabitants_with_migration_background_age_27_45
+    - name: inhabitants_with_migration_background_age_45_55
+    - name: inhabitants_with_migration_background_age_55_65
+    - name: inhabitants_with_migration_background_age_above_65
+    - name: inhabitants_with_migration_background_female
+    - name: inhabitants_foreigners
+    - { name: inhabitants_per_sqkm, numerator: inhabitants, denominator_area_sqkm: True }
+    - { name: inhabitants_with_migration_background_age_below_6_per_sqkm, numerator: inhabitants_with_migration_background_age_below_6, denominator_area_sqkm: True }
+    - { name: inhabitants_with_migration_background_age_6_15_per_sqkm, numerator: inhabitants_with_migration_background_age_6_15, denominator_area_sqkm: True }
+    - { name: inhabitants_with_migration_background_age_15_18_per_sqkm, numerator: inhabitants_with_migration_background_age_15_18, denominator_area_sqkm: True }
+    - { name: inhabitants_with_migration_background_age_18_27_per_sqkm, numerator: inhabitants_with_migration_background_age_18_27, denominator_area_sqkm: True }
+    - { name: inhabitants_with_migration_background_age_27_45_per_sqkm, numerator: inhabitants_with_migration_background_age_27_45, denominator_area_sqkm: True }
+    - { name: inhabitants_with_migration_background_age_45_55_per_sqkm, numerator: inhabitants_with_migration_background_age_45_55, denominator_area_sqkm: True }
+    - { name: inhabitants_with_migration_background_age_55_65_per_sqkm, numerator: inhabitants_with_migration_background_age_55_65, denominator_area_sqkm: True }
+    - { name: inhabitants_with_migration_background_age_above_65_per_sqkm, numerator: inhabitants_with_migration_background_age_above_65, denominator_area_sqkm: True }
+    - { name: inhabitants_with_migration_background_female_per_sqkm, numerator: inhabitants_with_migration_background_female, denominator_area_sqkm: True }
+    - { name: inhabitants_foreigners_per_sqkm, numerator: inhabitants_foreigners, denominator_area_sqkm: True }
+    - name: inhabitants_percentage
+    - name: inhabitants_with_migration_background_age_below_6_percentage
+    - name: inhabitants_with_migration_background_age_6_15_percentage
+    - name: inhabitants_with_migration_background_age_15_18_percentage
+    - name: inhabitants_with_migration_background_age_18_27_percentage
+    - name: inhabitants_with_migration_background_age_27_45_percentage
+    - name: inhabitants_with_migration_background_age_45_55_percentage
+    - name: inhabitants_with_migration_background_age_55_65_percentage
+    - name: inhabitants_with_migration_background_age_above_65_percentage
+    - name: inhabitants_with_migration_background_female_percentage
+    - name: inhabitants_foreigners_percentage
+  t4: &t4
+    - name: inhabitants
+    - name: inhabitants_from_european_union
+    - name: inhabitants_from_france
+    - name: inhabitants_from_greece
+    - name: inhabitants_from_italy
+    - name: inhabitants_from_austria
+    - name: inhabitants_from_spain
+    - name: inhabitants_from_poland
+    - name: inhabitants_from_bulgaria
+    - name: inhabitants_from_rumania
+    - name: inhabitants_from_croatia
+    - name: inhabitants_from_united_kingdom
+    - name: inhabitants_from_former_yugoslavia
+    - name: inhabitants_from_bosnia_herzegovina
+    - name: inhabitants_from_serbia
+    - name: inhabitants_from_former_soviet_union
+    - name: inhabitants_from_russia
+    - name: inhabitants_from_ukraine
+    - name: inhabitants_from_kazakhstan
+    - name: inhabitants_from_islamic_countries
+    - name: inhabitants_from_turkey
+    - name: inhabitants_from_iran
+    - name: inhabitants_from_arabic_countries
+    - name: inhabitants_from_lebanon
+    - name: inhabitants_from_syria
+    - name: inhabitants_from_vietnam
+    - name: inhabitants_from_united_states
+    - name: inhabitants_from_undefined
+    - { name: inhabitants_per_sqkm, numerator: inhabitants, denominator_area_sqkm: True }
+    - { name: inhabitants_from_european_union_per_sqkm, numerator: inhabitants_from_european_union, denominator_area_sqkm: True }
+    - { name: inhabitants_from_france_per_sqkm, numerator: inhabitants_from_france, denominator_area_sqkm: True }
+    - { name: inhabitants_from_greece_per_sqkm, numerator: inhabitants_from_greece, denominator_area_sqkm: True }
+    - { name: inhabitants_from_italy_per_sqkm, numerator: inhabitants_from_italy, denominator_area_sqkm: True }
+    - { name: inhabitants_from_austria_per_sqkm, numerator: inhabitants_from_austria, denominator_area_sqkm: True }
+    - { name: inhabitants_from_spain_per_sqkm, numerator: inhabitants_from_spain, denominator_area_sqkm: True }
+    - { name: inhabitants_from_poland_per_sqkm, numerator: inhabitants_from_poland, denominator_area_sqkm: True }
+    - { name: inhabitants_from_bulgaria_per_sqkm, numerator: inhabitants_from_bulgaria, denominator_area_sqkm: True }
+    - { name: inhabitants_from_rumania_per_sqkm, numerator: inhabitants_from_rumania, denominator_area_sqkm: True }
+    - { name: inhabitants_from_croatia_per_sqkm, numerator: inhabitants_from_croatia, denominator_area_sqkm: True }
+    - { name: inhabitants_from_united_kingdom_per_sqkm, numerator: inhabitants_from_united_kingdom, denominator_area_sqkm: True }
+    - { name: inhabitants_from_former_yugoslavia_per_sqkm, numerator: inhabitants_from_former_yugoslavia, denominator_area_sqkm: True }
+    - { name: inhabitants_from_bosnia_herzegovina_per_sqkm, numerator: inhabitants_from_bosnia_herzegovina, denominator_area_sqkm: True }
+    - { name: inhabitants_from_serbia_per_sqkm, numerator: inhabitants_from_serbia, denominator_area_sqkm: True }
+    - { name: inhabitants_from_former_soviet_union_per_sqkm, numerator: inhabitants_from_former_soviet_union, denominator_area_sqkm: True }
+    - { name: inhabitants_from_russia_per_sqkm, numerator: inhabitants_from_russia, denominator_area_sqkm: True }
+    - { name: inhabitants_from_ukraine_per_sqkm, numerator: inhabitants_from_ukraine, denominator_area_sqkm: True }
+    - { name: inhabitants_from_kazakhstan_per_sqkm, numerator: inhabitants_from_kazakhstan, denominator_area_sqkm: True }
+    - { name: inhabitants_from_islamic_countries_per_sqkm, numerator: inhabitants_from_islamic_countries, denominator_area_sqkm: True }
+    - { name: inhabitants_from_turkey_per_sqkm, numerator: inhabitants_from_turkey, denominator_area_sqkm: True }
+    - { name: inhabitants_from_iran_per_sqkm, numerator: inhabitants_from_iran, denominator_area_sqkm: True }
+    - { name: inhabitants_from_arabic_countries_per_sqkm, numerator: inhabitants_from_arabic_countries, denominator_area_sqkm: True }
+    - { name: inhabitants_from_lebanon_per_sqkm, numerator: inhabitants_from_lebanon, denominator_area_sqkm: True }
+    - { name: inhabitants_from_syria_per_sqkm, numerator: inhabitants_from_syria, denominator_area_sqkm: True }
+    - { name: inhabitants_from_vietnam_per_sqkm, numerator: inhabitants_from_vietnam, denominator_area_sqkm: True }
+    - { name: inhabitants_from_united_states_per_sqkm, numerator: inhabitants_from_united_states, denominator_area_sqkm: True }
+    - { name: inhabitants_from_undefined_per_sqkm, numerator: inhabitants_from_undefined, denominator_area_sqkm: True }
+    - name: inhabitants_percentage
+    - name: inhabitants_from_european_union_percentage
+    - name: inhabitants_from_france_percentage
+    - name: inhabitants_from_greece_percentage
+    - name: inhabitants_from_italy_percentage
+    - name: inhabitants_from_austria_percentage
+    - name: inhabitants_from_spain_percentage
+    - name: inhabitants_from_poland_percentage
+    - name: inhabitants_from_bulgaria_percentage
+    - name: inhabitants_from_rumania_percentage
+    - name: inhabitants_from_croatia_percentage
+    - name: inhabitants_from_united_kingdom_percentage
+    - name: inhabitants_from_former_yugoslavia_percentage
+    - name: inhabitants_from_bosnia_herzegovina_percentage
+    - name: inhabitants_from_serbia_percentage
+    - name: inhabitants_from_former_soviet_union_percentage
+    - name: inhabitants_from_russia_percentage
+    - name: inhabitants_from_ukraine_percentage
+    - name: inhabitants_from_kazakhstan_percentage
+    - name: inhabitants_from_islamic_countries_percentage
+    - name: inhabitants_from_turkey_percentage
+    - name: inhabitants_from_iran_percentage
+    - name: inhabitants_from_arabic_countries_percentage
+    - name: inhabitants_from_lebanon_percentage
+    - name: inhabitants_from_syria_percentage
+    - name: inhabitants_from_vietnam_percentage
+    - name: inhabitants_from_united_states_percentage
+    - name: inhabitants_from_undefined_percentage
+input_port_groups:
+  - id: berlin-lor-population
+    input_ports:
+      - id: berlin-lor-population-2015-01
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2015-01-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2015-01-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2015-01-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2015-01-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2015-01-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2015-01-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2015-01-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2015-01-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2015-01-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2015-01-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2015-01-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2015-01-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2015-01-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2015-01-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2015-01-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-population-2015-01-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2015-01-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2015-01-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2015-01-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2015-01-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2015-01-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2015-01-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2015-01-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2015-01-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2015-01-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2015-02
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2015-02-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2015-02-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2015-02-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2015-02-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2015-02-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2015-02-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2015-02-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2015-02-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2015-02-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2015-02-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2015-02-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2015-02-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2015-02-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2015-02-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2015-02-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-population-2015-02-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2015-02-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2015-02-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2015-02-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2015-02-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2015-02-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2015-02-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2015-02-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2015-02-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2015-02-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2016-01
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2016-01-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2016-01-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2016-01-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2016-01-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2016-01-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2016-01-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2016-01-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2016-01-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2016-01-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2016-01-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2016-01-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2016-01-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2016-01-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2016-01-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2016-01-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-population-2016-01-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2016-01-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2016-01-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2016-01-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2016-01-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2016-01-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2016-01-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2016-01-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2016-01-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2016-01-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2016-02
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2016-02-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2016-02-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2016-02-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2016-02-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2016-02-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2016-02-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2016-02-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2016-02-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2016-02-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2016-02-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2016-02-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2016-02-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2016-02-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2016-02-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2016-02-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-population-2016-02-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2016-02-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2016-02-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2016-02-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2016-02-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2016-02-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2016-02-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2016-02-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2016-02-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2016-02-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2017-01
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2017-01-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2017-01-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2017-01-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2017-01-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2017-01-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2017-01-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2017-01-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2017-01-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2017-01-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2017-01-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2017-01-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2017-01-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2017-01-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2017-01-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2017-01-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-population-2017-01-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2017-01-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2017-01-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2017-01-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2017-01-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2017-01-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2017-01-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2017-01-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2017-01-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2017-01-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2017-02
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2017-02-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2017-02-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2017-02-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2017-02-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2017-02-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2017-02-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2017-02-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2017-02-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2017-02-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2017-02-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2017-02-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2017-02-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2017-02-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2017-02-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2017-02-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-population-2017-02-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2017-02-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2017-02-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2017-02-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2017-02-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2017-02-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2017-02-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2017-02-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2017-02-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2017-02-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2018-01
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2018-01-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2018-01-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2018-01-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2018-01-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2018-01-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2018-01-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2018-01-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2018-01-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2018-01-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2018-01-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2018-01-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2018-01-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2018-01-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2018-01-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2018-01-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-population-2018-01-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2018-01-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2018-01-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2018-01-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2018-01-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2018-01-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2018-01-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2018-01-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2018-01-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2018-01-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2018-02
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2018-02-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2018-02-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2018-02-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2018-02-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2018-02-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2018-02-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2018-02-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2018-02-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2018-02-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2018-02-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2018-02-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2018-02-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2018-02-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2018-02-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2018-02-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-population-2018-02-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2018-02-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2018-02-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2018-02-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2018-02-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2018-02-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2018-02-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2018-02-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2018-02-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2018-02-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2019-01
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2019-01-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2019-01-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2019-01-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2019-01-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2019-01-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2019-01-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2019-01-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2019-01-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2019-01-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2019-01-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2019-01-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2019-01-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2019-01-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2019-01-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2019-01-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-population-2019-01-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2019-01-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2019-01-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2019-01-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2019-01-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2019-01-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2019-01-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2019-01-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2019-01-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2019-01-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2019-02
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2019-02-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2019-02-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2019-02-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2019-02-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2019-02-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2019-02-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2019-02-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2019-02-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2019-02-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2019-02-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2019-02-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2019-02-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2019-02-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2019-02-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2019-02-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-population-2019-02-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2019-02-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2019-02-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2019-02-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2019-02-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2019-02-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2019-02-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2019-02-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2019-02-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2019-02-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2020-01
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2020-01-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2020-01-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2020-01-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2020-01-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2020-01-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2020-01-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2020-01-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2020-01-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2020-01-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2020-01-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2020-01-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2020-01-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2020-01-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2020-01-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2020-01-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-population-2020-01-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2020-01-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2020-01-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2020-01-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2020-01-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2020-01-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2020-01-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2020-01-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2020-01-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2020-01-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2020-02
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2020-02-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2020-02-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2020-02-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2020-02-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2020-02-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2020-02-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2020-02-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2020-02-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2020-02-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2020-02-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2020-02-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2020-02-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2020-02-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2020-02-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2020-02-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-population-2020-02-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2020-02-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2020-02-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2020-02-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2020-02-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+          target_file_name: berlin-lor-population-2020-02-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2020-02-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2020-02-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2020-02-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2020-02-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2021-01
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2021-01-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2021-01-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2021-01-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2021-01-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2021-01-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2021-01-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2021-01-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2021-01-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2021-01-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2021-01-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2021-01-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2021-01-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2021-01-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2021-01-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2021-01-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-population-2021-01-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2021-01-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2021-01-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2021-01-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2021-01-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2021-01-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2021-01-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2021-01-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2021-01-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2021-01-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2021-02
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2021-02-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2021-02-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2021-02-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2021-02-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2021-02-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2021-02-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2021-02-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2021-02-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2021-02-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2021-02-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2021-02-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2021-02-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2021-02-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2021-02-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2021-02-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-population-2021-02-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2021-02-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2021-02-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2021-02-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2021-02-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2021-02-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2021-02-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2021-02-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2021-02-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2021-02-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2022-01
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2022-01-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2022-01-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2022-01-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2022-01-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2022-01-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2022-01-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2022-01-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2022-01-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2022-01-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2022-01-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2022-01-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2022-01-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2022-01-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2022-01-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2022-01-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-population-2022-01-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2022-01-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2022-01-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2022-01-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2022-01-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2022-01-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2022-01-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2022-01-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2022-01-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2022-01-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2022-02
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2022-02-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2022-02-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2022-02-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2022-02-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2022-02-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2022-02-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2022-02-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2022-02-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2022-02-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2022-02-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2022-02-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2022-02-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2022-02-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2022-02-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2022-02-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-population-2022-02-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2022-02-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2022-02-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2022-02-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2022-02-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2022-02-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2022-02-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2022-02-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2022-02-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2022-02-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2023-01
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2023-01-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2023-01-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2023-01-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2023-01-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2023-01-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2023-01-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2023-01-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2023-01-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2023-01-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2023-01-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2023-01-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2023-01-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2023-01-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2023-01-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2023-01-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-population-2023-01-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2023-01-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2023-01-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2023-01-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2023-01-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2023-01-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2023-01-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2023-01-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2023-01-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2023-01-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2023-02
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2023-02-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2023-02-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2023-02-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2023-02-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2023-02-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2023-02-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2023-02-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2023-02-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2023-02-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2023-02-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2023-02-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2023-02-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2023-02-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2023-02-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2023-02-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-population-2023-02-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2023-02-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2023-02-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2023-02-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2023-02-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2023-02-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2023-02-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2023-02-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2023-02-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2023-02-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2024-01
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2024-01-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2024-01-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2024-01-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2024-01-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2024-01-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2024-01-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2024-01-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2024-01-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2024-01-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2024-01-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2024-01-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2024-01-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2024-01-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2024-01-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2024-01-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-population-2024-01-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2024-01-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2024-01-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2024-01-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2024-01-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2024-01-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2024-01-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2024-01-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2024-01-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2024-01-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+      - id: berlin-lor-population-2024-02
+        files:
+        - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
+          target_file_name: berlin-lor-population-2024-02-city.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2024-02-t1-city.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2024-02-t2-city.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2024-02-t3-city.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2024-02-t4-city.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-population-2024-02-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2024-02-t1-districts.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2024-02-t2-districts.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2024-02-t3-districts.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2024-02-t4-districts.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2024-02-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2024-02-t1-forecast-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2024-02-t2-forecast-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2024-02-t3-forecast-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2024-02-t4-forecast-areas.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+          target_file_name: berlin-lor-population-2024-02-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2024-02-t1-district-regions.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2024-02-t2-district-regions.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2024-02-t3-district-regions.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2024-02-t4-district-regions.csv, source_file_prefix: t4_, attributes: *t4 }
+        - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+          target_file_name: berlin-lor-population-2024-02-planning-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-population-2024-02-t1-planning-areas.csv, source_file_prefix: t1_, attributes: *t1 }
+            - { source_file_name: berlin-lor-population-2024-02-t2-planning-areas.csv, source_file_prefix: t2_, attributes: *t2 }
+            - { source_file_name: berlin-lor-population-2024-02-t3-planning-areas.csv, source_file_prefix: t3_, attributes: *t3 }
+            - { source_file_name: berlin-lor-population-2024-02-t4-planning-areas.csv, source_file_prefix: t4_, attributes: *t4 }
