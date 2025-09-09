@@ -6,7 +6,7 @@ metadata:
   description: Data product providing Berlin population data on different LOR hierarchy levels
   url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population
   license: CC-BY 4.0
-  updated: 2025-07-05
+  updated: 2025-10-22
   schema:
     - name: inhabitants
       description: number of inhabitants
@@ -825,7 +825,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/tree/main/data/03-gold/berlin-lor-population-geojson
       license: CC-BY 4.0
-      updated: 2025-07-05
+      updated: 2025-10-22
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2015-01-city.geojson
@@ -935,7 +935,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/tree/main/data/03-gold/berlin-lor-population-statistics
       license: CC-BY 4.0
-      updated: 2025-07-05
+      updated: 2025-10-22
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-statistics/berlin-lor-population-statistics.json
@@ -971,7 +971,7 @@ observability:
         - name: berlin-lor-population-2016-01-forecast-areas.geojson
           value: 100
         - name: berlin-lor-population-2016-01-district-regions.geojson
-          value: 50
+          value: 100
         - name: berlin-lor-population-2016-01-planning-areas.geojson
           value: 100
         - name: berlin-lor-population-2016-02-city.geojson
@@ -991,7 +991,7 @@ observability:
         - name: berlin-lor-population-2017-01-forecast-areas.geojson
           value: 100
         - name: berlin-lor-population-2017-01-district-regions.geojson
-          value: 50
+          value: 100
         - name: berlin-lor-population-2017-01-planning-areas.geojson
           value: 100
         - name: berlin-lor-population-2017-02-city.geojson
@@ -1011,7 +1011,7 @@ observability:
         - name: berlin-lor-population-2018-01-forecast-areas.geojson
           value: 100
         - name: berlin-lor-population-2018-01-district-regions.geojson
-          value: 50
+          value: 100
         - name: berlin-lor-population-2018-01-planning-areas.geojson
           value: 100
         - name: berlin-lor-population-2018-02-city.geojson
@@ -1031,7 +1031,7 @@ observability:
         - name: berlin-lor-population-2019-01-forecast-areas.geojson
           value: 100
         - name: berlin-lor-population-2019-01-district-regions.geojson
-          value: 50
+          value: 100
         - name: berlin-lor-population-2019-01-planning-areas.geojson
           value: 100
         - name: berlin-lor-population-2019-02-city.geojson
@@ -1051,7 +1051,7 @@ observability:
         - name: berlin-lor-population-2020-01-forecast-areas.geojson
           value: 100
         - name: berlin-lor-population-2020-01-district-regions.geojson
-          value: 50
+          value: 100
         - name: berlin-lor-population-2020-01-planning-areas.geojson
           value: 100
         - name: berlin-lor-population-2020-02-city.geojson
@@ -1071,7 +1071,7 @@ observability:
         - name: berlin-lor-population-2021-01-forecast-areas.geojson
           value: 100
         - name: berlin-lor-population-2021-01-district-regions.geojson
-          value: 50
+          value: 100
         - name: berlin-lor-population-2021-01-planning-areas.geojson
           value: 100
         - name: berlin-lor-population-2021-02-city.geojson
@@ -1091,7 +1091,7 @@ observability:
         - name: berlin-lor-population-2022-01-forecast-areas.geojson
           value: 100
         - name: berlin-lor-population-2022-01-district-regions.geojson
-          value: 50
+          value: 100
         - name: berlin-lor-population-2022-01-planning-areas.geojson
           value: 100
         - name: berlin-lor-population-2022-02-city.geojson
@@ -1111,7 +1111,7 @@ observability:
         - name: berlin-lor-population-2023-01-forecast-areas.geojson
           value: 100
         - name: berlin-lor-population-2023-01-district-regions.geojson
-          value: 50
+          value: 100
         - name: berlin-lor-population-2023-01-planning-areas.geojson
           value: 100
         - name: berlin-lor-population-2023-02-city.geojson
@@ -1131,7 +1131,7 @@ observability:
         - name: berlin-lor-population-2024-01-forecast-areas.geojson
           value: 100
         - name: berlin-lor-population-2024-01-district-regions.geojson
-          value: 50
+          value: 100
         - name: berlin-lor-population-2024-01-planning-areas.geojson
           value: 100
         - name: berlin-lor-population-2024-02-city.geojson

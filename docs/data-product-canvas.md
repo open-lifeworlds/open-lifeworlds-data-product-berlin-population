@@ -7,7 +7,7 @@
 * description: Data product providing Berlin population data on different LOR hierarchy levels
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population
 * license: CC-BY 4.0
-* updated: 2025-07-05
+* updated: 2025-10-22
 
 ## Input Ports
 
@@ -722,7 +722,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/tree/main/data/03-gold/berlin-lor-population-geojson
 * license: CC-BY 4.0
-* updated: 2025-07-05
+* updated: 2025-10-22
 
 **Files**
 
@@ -832,7 +832,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/tree/main/data/03-gold/berlin-lor-population-statistics
 * license: CC-BY 4.0
-* updated: 2025-07-05
+* updated: 2025-10-22
 
 **Files**
 
@@ -860,7 +860,7 @@
 | berlin-lor-population-2016-01-city.geojson | 100 |
 | berlin-lor-population-2016-01-districts.geojson | 100 |
 | berlin-lor-population-2016-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2016-01-district-regions.geojson | 50 |
+| berlin-lor-population-2016-01-district-regions.geojson | 100 |
 | berlin-lor-population-2016-01-planning-areas.geojson | 100 |
 | berlin-lor-population-2016-02-city.geojson | 100 |
 | berlin-lor-population-2016-02-districts.geojson | 100 |
@@ -870,7 +870,7 @@
 | berlin-lor-population-2017-01-city.geojson | 100 |
 | berlin-lor-population-2017-01-districts.geojson | 100 |
 | berlin-lor-population-2017-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2017-01-district-regions.geojson | 50 |
+| berlin-lor-population-2017-01-district-regions.geojson | 100 |
 | berlin-lor-population-2017-01-planning-areas.geojson | 100 |
 | berlin-lor-population-2017-02-city.geojson | 100 |
 | berlin-lor-population-2017-02-districts.geojson | 100 |
@@ -880,7 +880,7 @@
 | berlin-lor-population-2018-01-city.geojson | 100 |
 | berlin-lor-population-2018-01-districts.geojson | 100 |
 | berlin-lor-population-2018-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2018-01-district-regions.geojson | 50 |
+| berlin-lor-population-2018-01-district-regions.geojson | 100 |
 | berlin-lor-population-2018-01-planning-areas.geojson | 100 |
 | berlin-lor-population-2018-02-city.geojson | 100 |
 | berlin-lor-population-2018-02-districts.geojson | 100 |
@@ -890,7 +890,7 @@
 | berlin-lor-population-2019-01-city.geojson | 100 |
 | berlin-lor-population-2019-01-districts.geojson | 100 |
 | berlin-lor-population-2019-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2019-01-district-regions.geojson | 50 |
+| berlin-lor-population-2019-01-district-regions.geojson | 100 |
 | berlin-lor-population-2019-01-planning-areas.geojson | 100 |
 | berlin-lor-population-2019-02-city.geojson | 100 |
 | berlin-lor-population-2019-02-districts.geojson | 100 |
@@ -900,7 +900,7 @@
 | berlin-lor-population-2020-01-city.geojson | 100 |
 | berlin-lor-population-2020-01-districts.geojson | 100 |
 | berlin-lor-population-2020-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2020-01-district-regions.geojson | 50 |
+| berlin-lor-population-2020-01-district-regions.geojson | 100 |
 | berlin-lor-population-2020-01-planning-areas.geojson | 100 |
 | berlin-lor-population-2020-02-city.geojson | 100 |
 | berlin-lor-population-2020-02-districts.geojson | 100 |
@@ -910,7 +910,7 @@
 | berlin-lor-population-2021-01-city.geojson | 100 |
 | berlin-lor-population-2021-01-districts.geojson | 100 |
 | berlin-lor-population-2021-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2021-01-district-regions.geojson | 50 |
+| berlin-lor-population-2021-01-district-regions.geojson | 100 |
 | berlin-lor-population-2021-01-planning-areas.geojson | 100 |
 | berlin-lor-population-2021-02-city.geojson | 100 |
 | berlin-lor-population-2021-02-districts.geojson | 100 |
@@ -920,7 +920,7 @@
 | berlin-lor-population-2022-01-city.geojson | 100 |
 | berlin-lor-population-2022-01-districts.geojson | 100 |
 | berlin-lor-population-2022-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2022-01-district-regions.geojson | 50 |
+| berlin-lor-population-2022-01-district-regions.geojson | 100 |
 | berlin-lor-population-2022-01-planning-areas.geojson | 100 |
 | berlin-lor-population-2022-02-city.geojson | 100 |
 | berlin-lor-population-2022-02-districts.geojson | 100 |
@@ -930,7 +930,7 @@
 | berlin-lor-population-2023-01-city.geojson | 100 |
 | berlin-lor-population-2023-01-districts.geojson | 100 |
 | berlin-lor-population-2023-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2023-01-district-regions.geojson | 50 |
+| berlin-lor-population-2023-01-district-regions.geojson | 100 |
 | berlin-lor-population-2023-01-planning-areas.geojson | 100 |
 | berlin-lor-population-2023-02-city.geojson | 100 |
 | berlin-lor-population-2023-02-districts.geojson | 100 |
@@ -940,7 +940,7 @@
 | berlin-lor-population-2024-01-city.geojson | 100 |
 | berlin-lor-population-2024-01-districts.geojson | 100 |
 | berlin-lor-population-2024-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2024-01-district-regions.geojson | 50 |
+| berlin-lor-population-2024-01-district-regions.geojson | 100 |
 | berlin-lor-population-2024-01-planning-areas.geojson | 100 |
 | berlin-lor-population-2024-02-city.geojson | 100 |
 | berlin-lor-population-2024-02-districts.geojson | 100 |
