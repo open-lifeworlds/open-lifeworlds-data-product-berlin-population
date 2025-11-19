@@ -28,6 +28,19 @@ interfaceComponents:
       componentGroup:
       tags:
       externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-lor-population-statistics
+      fullyQualifiedName: berlin-lor-population-statistics
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
   inputPorts:
     - promises:
       expectations:

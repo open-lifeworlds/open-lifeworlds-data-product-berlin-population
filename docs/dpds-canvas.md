@@ -84,6 +84,8 @@
 ### Output Ports
 #### berlin-lor-population-geojson
 * fully qualified name: berlin-lor-population-geojson
+#### berlin-lor-population-statistics
+* fully qualified name: berlin-lor-population-statistics
 
 
 ---
