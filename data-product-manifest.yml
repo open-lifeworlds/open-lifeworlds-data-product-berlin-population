@@ -6,7 +6,7 @@ metadata:
   description: Data product providing Berlin population data on different LOR hierarchy levels
   url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population
   license: CC-BY 4.0
-  updated: 2025-11-06
+  updated: 2025-11-07
   schema:
     - name: inhabitants
       description: number of inhabitants
@@ -113,7 +113,7 @@ metadata:
 input_ports:
   - id: berlin-lor-geodata
     manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/refs/heads/main/data-product-manifest.yml
-  - id: berlin-lor-population
+  - id: berlin-lor-population-source-aligned
     manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/data-product-manifest.yml
 transformation_steps:
   - name: Data extractor
@@ -130,7 +130,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/tree/main/data/03-gold/berlin-lor-population-geojson
       license: CC-BY 4.0
-      updated: 2025-11-06
+      updated: 2025-11-07
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2015-01-city.geojson
@@ -233,6 +233,11 @@ output_ports:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-02-districts.geojson
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-02-forecast-areas.geojson
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-02-planning-areas.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-city.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-district-regions.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-forecast-areas.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-planning-areas.geojson
   - id: berlin-lor-population-statistics
     metadata:
       name: Berlin Lor Population Statistics
@@ -240,7 +245,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/tree/main/data/03-gold/berlin-lor-population-statistics
       license: CC-BY 4.0
-      updated: 2025-11-06
+      updated: 2025-11-07
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-statistics/berlin-lor-population-statistics.json
@@ -439,15 +444,15 @@ observability:
           value: 100
         - name: berlin-lor-population-2024-01-planning-areas.geojson
           value: 100
-        - name: berlin-lor-population-2024-02-city.geojson
+        - name: berlin-lor-population-2025-01-city.geojson
           value: 100
-        - name: berlin-lor-population-2024-02-districts.geojson
+        - name: berlin-lor-population-2025-01-districts.geojson
           value: 100
-        - name: berlin-lor-population-2024-02-forecast-areas.geojson
+        - name: berlin-lor-population-2025-01-forecast-areas.geojson
           value: 100
-        - name: berlin-lor-population-2024-02-district-regions.geojson
+        - name: berlin-lor-population-2025-01-district-regions.geojson
           value: 100
-        - name: berlin-lor-population-2024-02-planning-areas.geojson
+        - name: berlin-lor-population-2025-01-planning-areas.geojson
           value: 100
   operational:
   slas:

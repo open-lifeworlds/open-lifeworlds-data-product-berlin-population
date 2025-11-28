@@ -22,8 +22,8 @@
 ### Input Ports
 #### berlin-lor-geodata
 * fully qualified name: berlin-lor-geodata
-#### berlin-lor-population
-* fully qualified name: berlin-lor-population
+#### berlin-lor-population-source-aligned
+* fully qualified name: berlin-lor-population-source-aligned
 
 ### Output Ports
 #### berlin-lor-population-geojson

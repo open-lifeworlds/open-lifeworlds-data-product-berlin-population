@@ -7,7 +7,7 @@
 * description: Data product providing Berlin population data on different LOR hierarchy levels
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population
 * license: CC-BY 4.0
-* updated: 2025-11-06
+* updated: 2025-11-07
 
 ## Input Ports
 
@@ -15,7 +15,7 @@
 
 * manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/refs/heads/main/data-product-manifest.yml
 
-### berlin-lor-population
+### berlin-lor-population-source-aligned
 
 * manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/data-product-manifest.yml
 
@@ -31,7 +31,7 @@ name: Berlin Lor Population Geojson
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/tree/main/data/03-gold/berlin-lor-population-geojson
 * license: CC-BY 4.0
-* updated: 2025-11-06
+* updated: 2025-11-07
 
 **Files**
 
@@ -135,6 +135,11 @@ name: Berlin Lor Population Geojson
 * [berlin-lor-population-2024-02-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-02-districts.geojson)
 * [berlin-lor-population-2024-02-forecast-areas.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-02-forecast-areas.geojson)
 * [berlin-lor-population-2024-02-planning-areas.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-02-planning-areas.geojson)
+* [berlin-lor-population-2025-01-city.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-city.geojson)
+* [berlin-lor-population-2025-01-district-regions.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-district-regions.geojson)
+* [berlin-lor-population-2025-01-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-districts.geojson)
+* [berlin-lor-population-2025-01-forecast-areas.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-forecast-areas.geojson)
+* [berlin-lor-population-2025-01-planning-areas.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-planning-areas.geojson)
 
 
 ### berlin-lor-population-statistics
@@ -142,7 +147,7 @@ name: Berlin Lor Population Statistics
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/tree/main/data/03-gold/berlin-lor-population-statistics
 * license: CC-BY 4.0
-* updated: 2025-11-06
+* updated: 2025-11-07
 
 **Files**
 
@@ -253,11 +258,11 @@ name: Berlin Lor Population Statistics
 | berlin-lor-population-2024-01-forecast-areas.geojson | 100 |
 | berlin-lor-population-2024-01-district-regions.geojson | 100 |
 | berlin-lor-population-2024-01-planning-areas.geojson | 100 |
-| berlin-lor-population-2024-02-city.geojson | 100 |
-| berlin-lor-population-2024-02-districts.geojson | 100 |
-| berlin-lor-population-2024-02-forecast-areas.geojson | 100 |
-| berlin-lor-population-2024-02-district-regions.geojson | 100 |
-| berlin-lor-population-2024-02-planning-areas.geojson | 100 |
+| berlin-lor-population-2025-01-city.geojson | 100 |
+| berlin-lor-population-2025-01-districts.geojson | 100 |
+| berlin-lor-population-2025-01-forecast-areas.geojson | 100 |
+| berlin-lor-population-2025-01-district-regions.geojson | 100 |
+| berlin-lor-population-2025-01-planning-areas.geojson | 100 |
 
 
 ## Classification

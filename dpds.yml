@@ -58,8 +58,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-population
-      fullyQualifiedName: berlin-lor-population
+      id: berlin-lor-population-source-aligned
+      fullyQualifiedName: berlin-lor-population-source-aligned
       entityType:
       name: ''
       version:
