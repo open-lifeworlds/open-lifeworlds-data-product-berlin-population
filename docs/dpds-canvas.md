@@ -20,66 +20,10 @@
 ## Interface Components
 
 ### Input Ports
-#### berlin-lor-city
-* fully qualified name: berlin-lor-city
-#### berlin-lor-district-regions-from-2021
-* fully qualified name: berlin-lor-district-regions-from-2021
-#### berlin-lor-district-regions-until-2020
-* fully qualified name: berlin-lor-district-regions-until-2020
-#### berlin-lor-districts
-* fully qualified name: berlin-lor-districts
-#### berlin-lor-forecast-areas-from-2021
-* fully qualified name: berlin-lor-forecast-areas-from-2021
-#### berlin-lor-forecast-areas-until-2020
-* fully qualified name: berlin-lor-forecast-areas-until-2020
-#### berlin-lor-planning-areas-from-2021
-* fully qualified name: berlin-lor-planning-areas-from-2021
-#### berlin-lor-planning-areas-until-2020
-* fully qualified name: berlin-lor-planning-areas-until-2020
-#### berlin-lor-matches
-* fully qualified name: berlin-lor-matches
-#### berlin-lor-population-2015-01-csv
-* fully qualified name: berlin-lor-population-2015-01-csv
-#### berlin-lor-population-2015-02-csv
-* fully qualified name: berlin-lor-population-2015-02-csv
-#### berlin-lor-population-2016-01-csv
-* fully qualified name: berlin-lor-population-2016-01-csv
-#### berlin-lor-population-2016-02-csv
-* fully qualified name: berlin-lor-population-2016-02-csv
-#### berlin-lor-population-2017-01-csv
-* fully qualified name: berlin-lor-population-2017-01-csv
-#### berlin-lor-population-2017-02-csv
-* fully qualified name: berlin-lor-population-2017-02-csv
-#### berlin-lor-population-2018-01-csv
-* fully qualified name: berlin-lor-population-2018-01-csv
-#### berlin-lor-population-2018-02-csv
-* fully qualified name: berlin-lor-population-2018-02-csv
-#### berlin-lor-population-2019-01-csv
-* fully qualified name: berlin-lor-population-2019-01-csv
-#### berlin-lor-population-2019-02-csv
-* fully qualified name: berlin-lor-population-2019-02-csv
-#### berlin-lor-population-2020-01-csv
-* fully qualified name: berlin-lor-population-2020-01-csv
-#### berlin-lor-population-2020-02-csv
-* fully qualified name: berlin-lor-population-2020-02-csv
-#### berlin-lor-population-2021-01-csv
-* fully qualified name: berlin-lor-population-2021-01-csv
-#### berlin-lor-population-2021-02-csv
-* fully qualified name: berlin-lor-population-2021-02-csv
-#### berlin-lor-population-2022-01-csv
-* fully qualified name: berlin-lor-population-2022-01-csv
-#### berlin-lor-population-2022-02-csv
-* fully qualified name: berlin-lor-population-2022-02-csv
-#### berlin-lor-population-2023-01-csv
-* fully qualified name: berlin-lor-population-2023-01-csv
-#### berlin-lor-population-2023-02-csv
-* fully qualified name: berlin-lor-population-2023-02-csv
-#### berlin-lor-population-2024-01-csv
-* fully qualified name: berlin-lor-population-2024-01-csv
-#### berlin-lor-population-2024-02-csv
-* fully qualified name: berlin-lor-population-2024-02-csv
-#### berlin-lor-population-statistics
-* fully qualified name: berlin-lor-population-statistics
+#### berlin-lor-geodata
+* fully qualified name: berlin-lor-geodata
+#### berlin-lor-population
+* fully qualified name: berlin-lor-population
 
 ### Output Ports
 #### berlin-lor-population-geojson
