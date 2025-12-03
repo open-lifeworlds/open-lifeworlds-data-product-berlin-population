@@ -1,5 +1,5 @@
 
-# Open Data Product Specification (ODPS) Canvas - Berlin LOR Population
+# Open Data Product Specification (ODPS) Canvas - Berlin Population
 
 * schema version: 3.1
 ## Product
@@ -8,9 +8,9 @@
 
 * output file formats: geojson, .json
 * categories: timeseries
-* description: Data product providing Berlin population data on different LOR hierarchy levels
+* description: Data product providing Berlin population data on different hierarchy levels
 * logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
-* product ID: berlin-lor-population
+* product ID: berlin-population
 * product series: Berlin Timeseries Series
 * status: active
 * tags: berlin, population

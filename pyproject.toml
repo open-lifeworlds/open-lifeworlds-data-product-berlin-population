@@ -1,7 +1,7 @@
 [project]
 name = "open-lifeworlds-data-product-berlin-lor-population"
 version = "0.1.0"
-description = "Data product combining Berlin LOR population data and geodata"
+description = "Data product combining Berlin population data and geodata"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

@@ -1,13 +1,13 @@
 
-# Data Product Canvas - Berlin LOR Population
+# Data Product Canvas - Berlin Population
 
 ## Metadata
 
 * owner: Open Lifeworlds
-* description: Data product providing Berlin population data on different LOR hierarchy levels
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population
+* description: Data product providing Berlin population data on different hierarchy levels
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-population
 * license: CC-BY 4.0
-* updated: 2025-11-07
+* updated: 2025-11-09
 
 ## Input Ports
 
@@ -15,9 +15,9 @@
 
 * manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/refs/heads/main/data-product-manifest.yml
 
-### berlin-lor-population-source-aligned
+### berlin-population-source-aligned
 
-* manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/data-product-manifest.yml
+* manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-population-source-aligned/refs/heads/main/data-product-manifest.yml
 
 ## Transformation Steps
 
@@ -26,132 +26,127 @@
 
 ## Output Ports
 
-### berlin-lor-population-geojson
-name: Berlin Lor Population Geojson
+### berlin-population-geojson
+name: Berlin Population Geojson
 * owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/tree/main/data/03-gold/berlin-lor-population-geojson
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-population/tree/main/data/03-gold/berlin-population-geojson
 * license: CC-BY 4.0
-* updated: 2025-11-07
+* updated: 2025-11-09
 
 **Files**
 
-* [berlin-lor-population-2015-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2015-01-city.geojson)
-* [berlin-lor-population-2015-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2015-01-district-regions.geojson)
-* [berlin-lor-population-2015-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2015-01-districts.geojson)
-* [berlin-lor-population-2015-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2015-01-forecast-areas.geojson)
-* [berlin-lor-population-2015-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2015-01-planning-areas.geojson)
-* [berlin-lor-population-2015-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2015-02-city.geojson)
-* [berlin-lor-population-2015-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2015-02-district-regions.geojson)
-* [berlin-lor-population-2015-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2015-02-districts.geojson)
-* [berlin-lor-population-2015-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2015-02-forecast-areas.geojson)
-* [berlin-lor-population-2015-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2015-02-planning-areas.geojson)
-* [berlin-lor-population-2016-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2016-01-city.geojson)
-* [berlin-lor-population-2016-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2016-01-district-regions.geojson)
-* [berlin-lor-population-2016-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2016-01-districts.geojson)
-* [berlin-lor-population-2016-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2016-01-forecast-areas.geojson)
-* [berlin-lor-population-2016-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2016-01-planning-areas.geojson)
-* [berlin-lor-population-2016-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2016-02-city.geojson)
-* [berlin-lor-population-2016-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2016-02-district-regions.geojson)
-* [berlin-lor-population-2016-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2016-02-districts.geojson)
-* [berlin-lor-population-2016-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2016-02-forecast-areas.geojson)
-* [berlin-lor-population-2016-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2016-02-planning-areas.geojson)
-* [berlin-lor-population-2017-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2017-01-city.geojson)
-* [berlin-lor-population-2017-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2017-01-district-regions.geojson)
-* [berlin-lor-population-2017-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2017-01-districts.geojson)
-* [berlin-lor-population-2017-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2017-01-forecast-areas.geojson)
-* [berlin-lor-population-2017-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2017-01-planning-areas.geojson)
-* [berlin-lor-population-2017-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2017-02-city.geojson)
-* [berlin-lor-population-2017-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2017-02-district-regions.geojson)
-* [berlin-lor-population-2017-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2017-02-districts.geojson)
-* [berlin-lor-population-2017-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2017-02-forecast-areas.geojson)
-* [berlin-lor-population-2017-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2017-02-planning-areas.geojson)
-* [berlin-lor-population-2018-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2018-01-city.geojson)
-* [berlin-lor-population-2018-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2018-01-district-regions.geojson)
-* [berlin-lor-population-2018-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2018-01-districts.geojson)
-* [berlin-lor-population-2018-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2018-01-forecast-areas.geojson)
-* [berlin-lor-population-2018-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2018-01-planning-areas.geojson)
-* [berlin-lor-population-2018-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2018-02-city.geojson)
-* [berlin-lor-population-2018-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2018-02-district-regions.geojson)
-* [berlin-lor-population-2018-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2018-02-districts.geojson)
-* [berlin-lor-population-2018-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2018-02-forecast-areas.geojson)
-* [berlin-lor-population-2018-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2018-02-planning-areas.geojson)
-* [berlin-lor-population-2019-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2019-01-city.geojson)
-* [berlin-lor-population-2019-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2019-01-district-regions.geojson)
-* [berlin-lor-population-2019-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2019-01-districts.geojson)
-* [berlin-lor-population-2019-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2019-01-forecast-areas.geojson)
-* [berlin-lor-population-2019-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2019-01-planning-areas.geojson)
-* [berlin-lor-population-2019-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2019-02-city.geojson)
-* [berlin-lor-population-2019-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2019-02-district-regions.geojson)
-* [berlin-lor-population-2019-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2019-02-districts.geojson)
-* [berlin-lor-population-2019-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2019-02-forecast-areas.geojson)
-* [berlin-lor-population-2019-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2019-02-planning-areas.geojson)
-* [berlin-lor-population-2020-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2020-01-city.geojson)
-* [berlin-lor-population-2020-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2020-01-district-regions.geojson)
-* [berlin-lor-population-2020-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2020-01-districts.geojson)
-* [berlin-lor-population-2020-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2020-01-forecast-areas.geojson)
-* [berlin-lor-population-2020-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2020-01-planning-areas.geojson)
-* [berlin-lor-population-2020-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2020-02-city.geojson)
-* [berlin-lor-population-2020-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2020-02-district-regions.geojson)
-* [berlin-lor-population-2020-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2020-02-districts.geojson)
-* [berlin-lor-population-2020-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2020-02-forecast-areas.geojson)
-* [berlin-lor-population-2020-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2020-02-planning-areas.geojson)
-* [berlin-lor-population-2021-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2021-01-city.geojson)
-* [berlin-lor-population-2021-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2021-01-district-regions.geojson)
-* [berlin-lor-population-2021-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2021-01-districts.geojson)
-* [berlin-lor-population-2021-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2021-01-forecast-areas.geojson)
-* [berlin-lor-population-2021-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2021-01-planning-areas.geojson)
-* [berlin-lor-population-2021-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2021-02-city.geojson)
-* [berlin-lor-population-2021-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2021-02-district-regions.geojson)
-* [berlin-lor-population-2021-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2021-02-districts.geojson)
-* [berlin-lor-population-2021-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2021-02-forecast-areas.geojson)
-* [berlin-lor-population-2021-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2021-02-planning-areas.geojson)
-* [berlin-lor-population-2022-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2022-01-city.geojson)
-* [berlin-lor-population-2022-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2022-01-district-regions.geojson)
-* [berlin-lor-population-2022-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2022-01-districts.geojson)
-* [berlin-lor-population-2022-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2022-01-forecast-areas.geojson)
-* [berlin-lor-population-2022-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2022-01-planning-areas.geojson)
-* [berlin-lor-population-2022-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2022-02-city.geojson)
-* [berlin-lor-population-2022-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2022-02-district-regions.geojson)
-* [berlin-lor-population-2022-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2022-02-districts.geojson)
-* [berlin-lor-population-2022-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2022-02-forecast-areas.geojson)
-* [berlin-lor-population-2022-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2022-02-planning-areas.geojson)
-* [berlin-lor-population-2023-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2023-01-city.geojson)
-* [berlin-lor-population-2023-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2023-01-district-regions.geojson)
-* [berlin-lor-population-2023-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2023-01-districts.geojson)
-* [berlin-lor-population-2023-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2023-01-forecast-areas.geojson)
-* [berlin-lor-population-2023-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2023-01-planning-areas.geojson)
-* [berlin-lor-population-2023-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2023-02-city.geojson)
-* [berlin-lor-population-2023-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2023-02-district-regions.geojson)
-* [berlin-lor-population-2023-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2023-02-districts.geojson)
-* [berlin-lor-population-2023-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2023-02-forecast-areas.geojson)
-* [berlin-lor-population-2023-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2023-02-planning-areas.geojson)
-* [berlin-lor-population-2024-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-01-city.geojson)
-* [berlin-lor-population-2024-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-01-district-regions.geojson)
-* [berlin-lor-population-2024-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-01-districts.geojson)
-* [berlin-lor-population-2024-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-01-forecast-areas.geojson)
-* [berlin-lor-population-2024-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-01-planning-areas.geojson)
-* [berlin-lor-population-2024-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-02-city.geojson)
-* [berlin-lor-population-2024-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-02-district-regions.geojson)
-* [berlin-lor-population-2024-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-02-districts.geojson)
-* [berlin-lor-population-2024-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-02-forecast-areas.geojson)
-* [berlin-lor-population-2024-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2024-02-planning-areas.geojson)
-* [berlin-lor-population-2025-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-city.geojson)
-* [berlin-lor-population-2025-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-district-regions.geojson)
-* [berlin-lor-population-2025-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-districts.geojson)
-* [berlin-lor-population-2025-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-forecast-areas.geojson)
-* [berlin-lor-population-2025-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-geojson/berlin-lor-population-2025-01-planning-areas.geojson)
+* [berlin-population-2015-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2015-01-city.geojson)
+* [berlin-population-2015-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2015-01-district-regions.geojson)
+* [berlin-population-2015-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2015-01-districts.geojson)
+* [berlin-population-2015-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2015-01-forecast-areas.geojson)
+* [berlin-population-2015-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2015-01-planning-areas.geojson)
+* [berlin-population-2015-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2015-02-city.geojson)
+* [berlin-population-2015-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2015-02-district-regions.geojson)
+* [berlin-population-2015-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2015-02-districts.geojson)
+* [berlin-population-2015-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2015-02-forecast-areas.geojson)
+* [berlin-population-2015-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2015-02-planning-areas.geojson)
+* [berlin-population-2016-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2016-01-city.geojson)
+* [berlin-population-2016-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2016-01-district-regions.geojson)
+* [berlin-population-2016-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2016-01-districts.geojson)
+* [berlin-population-2016-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2016-01-forecast-areas.geojson)
+* [berlin-population-2016-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2016-01-planning-areas.geojson)
+* [berlin-population-2016-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2016-02-city.geojson)
+* [berlin-population-2016-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2016-02-district-regions.geojson)
+* [berlin-population-2016-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2016-02-districts.geojson)
+* [berlin-population-2016-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2016-02-forecast-areas.geojson)
+* [berlin-population-2016-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2016-02-planning-areas.geojson)
+* [berlin-population-2017-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2017-01-city.geojson)
+* [berlin-population-2017-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2017-01-district-regions.geojson)
+* [berlin-population-2017-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2017-01-districts.geojson)
+* [berlin-population-2017-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2017-01-forecast-areas.geojson)
+* [berlin-population-2017-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2017-01-planning-areas.geojson)
+* [berlin-population-2017-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2017-02-city.geojson)
+* [berlin-population-2017-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2017-02-district-regions.geojson)
+* [berlin-population-2017-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2017-02-districts.geojson)
+* [berlin-population-2017-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2017-02-forecast-areas.geojson)
+* [berlin-population-2017-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2017-02-planning-areas.geojson)
+* [berlin-population-2018-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2018-01-city.geojson)
+* [berlin-population-2018-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2018-01-district-regions.geojson)
+* [berlin-population-2018-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2018-01-districts.geojson)
+* [berlin-population-2018-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2018-01-forecast-areas.geojson)
+* [berlin-population-2018-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2018-01-planning-areas.geojson)
+* [berlin-population-2018-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2018-02-city.geojson)
+* [berlin-population-2018-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2018-02-district-regions.geojson)
+* [berlin-population-2018-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2018-02-districts.geojson)
+* [berlin-population-2018-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2018-02-forecast-areas.geojson)
+* [berlin-population-2018-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2018-02-planning-areas.geojson)
+* [berlin-population-2019-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2019-01-city.geojson)
+* [berlin-population-2019-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2019-01-district-regions.geojson)
+* [berlin-population-2019-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2019-01-districts.geojson)
+* [berlin-population-2019-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2019-01-forecast-areas.geojson)
+* [berlin-population-2019-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2019-01-planning-areas.geojson)
+* [berlin-population-2019-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2019-02-city.geojson)
+* [berlin-population-2019-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2019-02-district-regions.geojson)
+* [berlin-population-2019-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2019-02-districts.geojson)
+* [berlin-population-2019-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2019-02-forecast-areas.geojson)
+* [berlin-population-2019-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2019-02-planning-areas.geojson)
+* [berlin-population-2020-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2020-01-city.geojson)
+* [berlin-population-2020-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2020-01-district-regions.geojson)
+* [berlin-population-2020-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2020-01-districts.geojson)
+* [berlin-population-2020-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2020-01-forecast-areas.geojson)
+* [berlin-population-2020-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2020-01-planning-areas.geojson)
+* [berlin-population-2020-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2020-02-city.geojson)
+* [berlin-population-2020-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2020-02-district-regions.geojson)
+* [berlin-population-2020-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2020-02-districts.geojson)
+* [berlin-population-2020-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2020-02-forecast-areas.geojson)
+* [berlin-population-2020-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2020-02-planning-areas.geojson)
+* [berlin-population-2021-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2021-01-city.geojson)
+* [berlin-population-2021-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2021-01-district-regions.geojson)
+* [berlin-population-2021-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2021-01-districts.geojson)
+* [berlin-population-2021-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2021-01-forecast-areas.geojson)
+* [berlin-population-2021-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2021-01-planning-areas.geojson)
+* [berlin-population-2021-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2021-02-city.geojson)
+* [berlin-population-2021-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2021-02-district-regions.geojson)
+* [berlin-population-2021-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2021-02-districts.geojson)
+* [berlin-population-2021-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2021-02-forecast-areas.geojson)
+* [berlin-population-2021-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2021-02-planning-areas.geojson)
+* [berlin-population-2022-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2022-01-city.geojson)
+* [berlin-population-2022-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2022-01-district-regions.geojson)
+* [berlin-population-2022-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2022-01-districts.geojson)
+* [berlin-population-2022-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2022-01-forecast-areas.geojson)
+* [berlin-population-2022-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2022-01-planning-areas.geojson)
+* [berlin-population-2022-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2022-02-city.geojson)
+* [berlin-population-2022-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2022-02-district-regions.geojson)
+* [berlin-population-2022-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2022-02-districts.geojson)
+* [berlin-population-2022-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2022-02-forecast-areas.geojson)
+* [berlin-population-2022-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2022-02-planning-areas.geojson)
+* [berlin-population-2023-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2023-01-city.geojson)
+* [berlin-population-2023-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2023-01-district-regions.geojson)
+* [berlin-population-2023-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2023-01-districts.geojson)
+* [berlin-population-2023-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2023-01-forecast-areas.geojson)
+* [berlin-population-2023-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2023-01-planning-areas.geojson)
+* [berlin-population-2023-02-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2023-02-city.geojson)
+* [berlin-population-2023-02-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2023-02-district-regions.geojson)
+* [berlin-population-2023-02-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2023-02-districts.geojson)
+* [berlin-population-2023-02-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2023-02-forecast-areas.geojson)
+* [berlin-population-2023-02-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2023-02-planning-areas.geojson)
+* [berlin-population-2024-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2024-01-city.geojson)
+* [berlin-population-2024-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2024-01-district-regions.geojson)
+* [berlin-population-2024-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2024-01-districts.geojson)
+* [berlin-population-2024-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2024-01-forecast-areas.geojson)
+* [berlin-population-2024-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2024-01-planning-areas.geojson)
+* [berlin-population-2025-01-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2025-01-city.geojson)
+* [berlin-population-2025-01-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2025-01-district-regions.geojson)
+* [berlin-population-2025-01-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2025-01-districts.geojson)
+* [berlin-population-2025-01-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2025-01-forecast-areas.geojson)
+* [berlin-population-2025-01-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-geojson/berlin-population-2025-01-planning-areas.geojson)
 
 
-### berlin-lor-population-statistics
-name: Berlin Lor Population Statistics
+### berlin-population-statistics
+name: Berlin Population Statistics
 * owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/tree/main/data/03-gold/berlin-lor-population-statistics
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-population/tree/main/data/03-gold/berlin-population-statistics
 * license: CC-BY 4.0
-* updated: 2025-11-07
+* updated: 2025-11-09
 
 **Files**
 
-* [berlin-lor-population-statistics.json](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-population/refs/heads/main/data/03-gold/berlin-lor-population-statistics/berlin-lor-population-statistics.json)
+* [berlin-population-statistics.json](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/data/03-gold/berlin-population-statistics/berlin-population-statistics.json)
 
 
 ## Observability
@@ -163,106 +158,106 @@ name: Berlin Lor Population Statistics
 
 | Name | Value |
 | --- | --- |
-| berlin-lor-population-2015-01-city.geojson | 100 |
-| berlin-lor-population-2015-01-districts.geojson | 100 |
-| berlin-lor-population-2015-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2015-01-district-regions.geojson | 100 |
-| berlin-lor-population-2015-01-planning-areas.geojson | 100 |
-| berlin-lor-population-2015-02-city.geojson | 100 |
-| berlin-lor-population-2015-02-districts.geojson | 100 |
-| berlin-lor-population-2015-02-forecast-areas.geojson | 100 |
-| berlin-lor-population-2015-02-district-regions.geojson | 100 |
-| berlin-lor-population-2015-02-planning-areas.geojson | 100 |
-| berlin-lor-population-2016-01-city.geojson | 100 |
-| berlin-lor-population-2016-01-districts.geojson | 100 |
-| berlin-lor-population-2016-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2016-01-district-regions.geojson | 100 |
-| berlin-lor-population-2016-01-planning-areas.geojson | 100 |
-| berlin-lor-population-2016-02-city.geojson | 100 |
-| berlin-lor-population-2016-02-districts.geojson | 100 |
-| berlin-lor-population-2016-02-forecast-areas.geojson | 100 |
-| berlin-lor-population-2016-02-district-regions.geojson | 100 |
-| berlin-lor-population-2016-02-planning-areas.geojson | 100 |
-| berlin-lor-population-2017-01-city.geojson | 100 |
-| berlin-lor-population-2017-01-districts.geojson | 100 |
-| berlin-lor-population-2017-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2017-01-district-regions.geojson | 100 |
-| berlin-lor-population-2017-01-planning-areas.geojson | 100 |
-| berlin-lor-population-2017-02-city.geojson | 100 |
-| berlin-lor-population-2017-02-districts.geojson | 100 |
-| berlin-lor-population-2017-02-forecast-areas.geojson | 100 |
-| berlin-lor-population-2017-02-district-regions.geojson | 100 |
-| berlin-lor-population-2017-02-planning-areas.geojson | 100 |
-| berlin-lor-population-2018-01-city.geojson | 100 |
-| berlin-lor-population-2018-01-districts.geojson | 100 |
-| berlin-lor-population-2018-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2018-01-district-regions.geojson | 100 |
-| berlin-lor-population-2018-01-planning-areas.geojson | 100 |
-| berlin-lor-population-2018-02-city.geojson | 100 |
-| berlin-lor-population-2018-02-districts.geojson | 100 |
-| berlin-lor-population-2018-02-forecast-areas.geojson | 100 |
-| berlin-lor-population-2018-02-district-regions.geojson | 100 |
-| berlin-lor-population-2018-02-planning-areas.geojson | 100 |
-| berlin-lor-population-2019-01-city.geojson | 100 |
-| berlin-lor-population-2019-01-districts.geojson | 100 |
-| berlin-lor-population-2019-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2019-01-district-regions.geojson | 100 |
-| berlin-lor-population-2019-01-planning-areas.geojson | 100 |
-| berlin-lor-population-2019-02-city.geojson | 100 |
-| berlin-lor-population-2019-02-districts.geojson | 100 |
-| berlin-lor-population-2019-02-forecast-areas.geojson | 100 |
-| berlin-lor-population-2019-02-district-regions.geojson | 100 |
-| berlin-lor-population-2019-02-planning-areas.geojson | 100 |
-| berlin-lor-population-2020-01-city.geojson | 100 |
-| berlin-lor-population-2020-01-districts.geojson | 100 |
-| berlin-lor-population-2020-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2020-01-district-regions.geojson | 100 |
-| berlin-lor-population-2020-01-planning-areas.geojson | 100 |
-| berlin-lor-population-2020-02-city.geojson | 100 |
-| berlin-lor-population-2020-02-districts.geojson | 100 |
-| berlin-lor-population-2020-02-forecast-areas.geojson | 100 |
-| berlin-lor-population-2020-02-district-regions.geojson | 100 |
-| berlin-lor-population-2020-02-planning-areas.geojson | 100 |
-| berlin-lor-population-2021-01-city.geojson | 100 |
-| berlin-lor-population-2021-01-districts.geojson | 100 |
-| berlin-lor-population-2021-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2021-01-district-regions.geojson | 100 |
-| berlin-lor-population-2021-01-planning-areas.geojson | 100 |
-| berlin-lor-population-2021-02-city.geojson | 100 |
-| berlin-lor-population-2021-02-districts.geojson | 100 |
-| berlin-lor-population-2021-02-forecast-areas.geojson | 100 |
-| berlin-lor-population-2021-02-district-regions.geojson | 100 |
-| berlin-lor-population-2021-02-planning-areas.geojson | 100 |
-| berlin-lor-population-2022-01-city.geojson | 100 |
-| berlin-lor-population-2022-01-districts.geojson | 100 |
-| berlin-lor-population-2022-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2022-01-district-regions.geojson | 100 |
-| berlin-lor-population-2022-01-planning-areas.geojson | 100 |
-| berlin-lor-population-2022-02-city.geojson | 100 |
-| berlin-lor-population-2022-02-districts.geojson | 100 |
-| berlin-lor-population-2022-02-forecast-areas.geojson | 100 |
-| berlin-lor-population-2022-02-district-regions.geojson | 100 |
-| berlin-lor-population-2022-02-planning-areas.geojson | 100 |
-| berlin-lor-population-2023-01-city.geojson | 100 |
-| berlin-lor-population-2023-01-districts.geojson | 100 |
-| berlin-lor-population-2023-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2023-01-district-regions.geojson | 100 |
-| berlin-lor-population-2023-01-planning-areas.geojson | 100 |
-| berlin-lor-population-2023-02-city.geojson | 100 |
-| berlin-lor-population-2023-02-districts.geojson | 100 |
-| berlin-lor-population-2023-02-forecast-areas.geojson | 100 |
-| berlin-lor-population-2023-02-district-regions.geojson | 100 |
-| berlin-lor-population-2023-02-planning-areas.geojson | 100 |
-| berlin-lor-population-2024-01-city.geojson | 100 |
-| berlin-lor-population-2024-01-districts.geojson | 100 |
-| berlin-lor-population-2024-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2024-01-district-regions.geojson | 100 |
-| berlin-lor-population-2024-01-planning-areas.geojson | 100 |
-| berlin-lor-population-2025-01-city.geojson | 100 |
-| berlin-lor-population-2025-01-districts.geojson | 100 |
-| berlin-lor-population-2025-01-forecast-areas.geojson | 100 |
-| berlin-lor-population-2025-01-district-regions.geojson | 100 |
-| berlin-lor-population-2025-01-planning-areas.geojson | 100 |
+| berlin-population-2015-01-city.geojson | 100 |
+| berlin-population-2015-01-districts.geojson | 100 |
+| berlin-population-2015-01-forecast-areas.geojson | 100 |
+| berlin-population-2015-01-district-regions.geojson | 100 |
+| berlin-population-2015-01-planning-areas.geojson | 100 |
+| berlin-population-2015-02-city.geojson | 100 |
+| berlin-population-2015-02-districts.geojson | 100 |
+| berlin-population-2015-02-forecast-areas.geojson | 100 |
+| berlin-population-2015-02-district-regions.geojson | 100 |
+| berlin-population-2015-02-planning-areas.geojson | 100 |
+| berlin-population-2016-01-city.geojson | 100 |
+| berlin-population-2016-01-districts.geojson | 100 |
+| berlin-population-2016-01-forecast-areas.geojson | 100 |
+| berlin-population-2016-01-district-regions.geojson | 100 |
+| berlin-population-2016-01-planning-areas.geojson | 100 |
+| berlin-population-2016-02-city.geojson | 100 |
+| berlin-population-2016-02-districts.geojson | 100 |
+| berlin-population-2016-02-forecast-areas.geojson | 100 |
+| berlin-population-2016-02-district-regions.geojson | 100 |
+| berlin-population-2016-02-planning-areas.geojson | 100 |
+| berlin-population-2017-01-city.geojson | 100 |
+| berlin-population-2017-01-districts.geojson | 100 |
+| berlin-population-2017-01-forecast-areas.geojson | 100 |
+| berlin-population-2017-01-district-regions.geojson | 100 |
+| berlin-population-2017-01-planning-areas.geojson | 100 |
+| berlin-population-2017-02-city.geojson | 100 |
+| berlin-population-2017-02-districts.geojson | 100 |
+| berlin-population-2017-02-forecast-areas.geojson | 100 |
+| berlin-population-2017-02-district-regions.geojson | 100 |
+| berlin-population-2017-02-planning-areas.geojson | 100 |
+| berlin-population-2018-01-city.geojson | 100 |
+| berlin-population-2018-01-districts.geojson | 100 |
+| berlin-population-2018-01-forecast-areas.geojson | 100 |
+| berlin-population-2018-01-district-regions.geojson | 100 |
+| berlin-population-2018-01-planning-areas.geojson | 100 |
+| berlin-population-2018-02-city.geojson | 100 |
+| berlin-population-2018-02-districts.geojson | 100 |
+| berlin-population-2018-02-forecast-areas.geojson | 100 |
+| berlin-population-2018-02-district-regions.geojson | 100 |
+| berlin-population-2018-02-planning-areas.geojson | 100 |
+| berlin-population-2019-01-city.geojson | 100 |
+| berlin-population-2019-01-districts.geojson | 100 |
+| berlin-population-2019-01-forecast-areas.geojson | 100 |
+| berlin-population-2019-01-district-regions.geojson | 100 |
+| berlin-population-2019-01-planning-areas.geojson | 100 |
+| berlin-population-2019-02-city.geojson | 100 |
+| berlin-population-2019-02-districts.geojson | 100 |
+| berlin-population-2019-02-forecast-areas.geojson | 100 |
+| berlin-population-2019-02-district-regions.geojson | 100 |
+| berlin-population-2019-02-planning-areas.geojson | 100 |
+| berlin-population-2020-01-city.geojson | 100 |
+| berlin-population-2020-01-districts.geojson | 100 |
+| berlin-population-2020-01-forecast-areas.geojson | 100 |
+| berlin-population-2020-01-district-regions.geojson | 100 |
+| berlin-population-2020-01-planning-areas.geojson | 100 |
+| berlin-population-2020-02-city.geojson | 100 |
+| berlin-population-2020-02-districts.geojson | 100 |
+| berlin-population-2020-02-forecast-areas.geojson | 100 |
+| berlin-population-2020-02-district-regions.geojson | 100 |
+| berlin-population-2020-02-planning-areas.geojson | 100 |
+| berlin-population-2021-01-city.geojson | 100 |
+| berlin-population-2021-01-districts.geojson | 100 |
+| berlin-population-2021-01-forecast-areas.geojson | 100 |
+| berlin-population-2021-01-district-regions.geojson | 100 |
+| berlin-population-2021-01-planning-areas.geojson | 100 |
+| berlin-population-2021-02-city.geojson | 100 |
+| berlin-population-2021-02-districts.geojson | 100 |
+| berlin-population-2021-02-forecast-areas.geojson | 100 |
+| berlin-population-2021-02-district-regions.geojson | 100 |
+| berlin-population-2021-02-planning-areas.geojson | 100 |
+| berlin-population-2022-01-city.geojson | 100 |
+| berlin-population-2022-01-districts.geojson | 100 |
+| berlin-population-2022-01-forecast-areas.geojson | 100 |
+| berlin-population-2022-01-district-regions.geojson | 100 |
+| berlin-population-2022-01-planning-areas.geojson | 100 |
+| berlin-population-2022-02-city.geojson | 100 |
+| berlin-population-2022-02-districts.geojson | 100 |
+| berlin-population-2022-02-forecast-areas.geojson | 100 |
+| berlin-population-2022-02-district-regions.geojson | 100 |
+| berlin-population-2022-02-planning-areas.geojson | 100 |
+| berlin-population-2023-01-city.geojson | 100 |
+| berlin-population-2023-01-districts.geojson | 100 |
+| berlin-population-2023-01-forecast-areas.geojson | 100 |
+| berlin-population-2023-01-district-regions.geojson | 100 |
+| berlin-population-2023-01-planning-areas.geojson | 100 |
+| berlin-population-2023-02-city.geojson | 100 |
+| berlin-population-2023-02-districts.geojson | 100 |
+| berlin-population-2023-02-forecast-areas.geojson | 100 |
+| berlin-population-2023-02-district-regions.geojson | 100 |
+| berlin-population-2023-02-planning-areas.geojson | 100 |
+| berlin-population-2024-01-city.geojson | 100 |
+| berlin-population-2024-01-districts.geojson | 100 |
+| berlin-population-2024-01-forecast-areas.geojson | 100 |
+| berlin-population-2024-01-district-regions.geojson | 100 |
+| berlin-population-2024-01-planning-areas.geojson | 100 |
+| berlin-population-2025-01-city.geojson | 100 |
+| berlin-population-2025-01-districts.geojson | 100 |
+| berlin-population-2025-01-forecast-areas.geojson | 100 |
+| berlin-population-2025-01-district-regions.geojson | 100 |
+| berlin-population-2025-01-planning-areas.geojson | 100 |
 
 
 ## Classification

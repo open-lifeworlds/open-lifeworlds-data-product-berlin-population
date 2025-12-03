@@ -1,25 +1,25 @@
 ---
 dataProductDescriptor: data-product-descriptor
 info:
-  fullyQualifiedName: urn:dpds:openlifeworlds:dataproducts:berlin-lor-population:1.0
-  name: Berlin LOR Population
+  fullyQualifiedName: urn:dpds:openlifeworlds:dataproducts:berlin-population:1.0
+  name: Berlin Population
   version: '1.0'
   domain: domain
   owner:
     id: Open Lifeworlds
     name: Open Lifeworlds
-  id: berlin-lor-population
+  id: berlin-population
   entityType:
-  displayName: Berlin LOR Population
-  description: Data product providing Berlin population data on different LOR hierarchy levels
+  displayName: Berlin Population
+  description: Data product providing Berlin population data on different hierarchy levels
   contactPoints:
 interfaceComponents:
   outputPorts:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-population-geojson
-      fullyQualifiedName: berlin-lor-population-geojson
+      id: berlin-population-geojson
+      fullyQualifiedName: berlin-population-geojson
       entityType:
       name: ''
       version:
@@ -31,8 +31,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-population-statistics
-      fullyQualifiedName: berlin-lor-population-statistics
+      id: berlin-population-statistics
+      fullyQualifiedName: berlin-population-statistics
       entityType:
       name: ''
       version:
@@ -58,8 +58,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-population-source-aligned
-      fullyQualifiedName: berlin-lor-population-source-aligned
+      id: berlin-population-source-aligned
+      fullyQualifiedName: berlin-population-source-aligned
       entityType:
       name: ''
       version:
