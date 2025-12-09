@@ -7,15 +7,12 @@
 ### Basic Information
 
 * output file formats: geojson, .json
-* categories: timeseries
 * description: Data product providing Berlin population data on different hierarchy levels
-* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
+* logo URL: https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-population/refs/heads/main/logo-with-text.png
 * product ID: berlin-population
-* product series: Berlin Timeseries Series
 * status: active
 * tags: berlin, population
 * type: source-aligned
-* value proposition: Combining Berlin LOR population data and geodata
 * version: 1.0
 * visibility: public
 

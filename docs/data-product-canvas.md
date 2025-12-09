@@ -7,7 +7,7 @@
 * description: Data product providing Berlin population data on different hierarchy levels
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-population
 * license: CC-BY 4.0
-* updated: 2025-11-09
+* updated: 2025-11-11
 
 ## Input Ports
 
@@ -31,7 +31,7 @@ name: Berlin Population Geojson
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-population/tree/main/data/03-gold/berlin-population-geojson
 * license: CC-BY 4.0
-* updated: 2025-11-09
+* updated: 2025-11-11
 
 **Files**
 
@@ -142,7 +142,7 @@ name: Berlin Population Statistics
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-population/tree/main/data/03-gold/berlin-population-statistics
 * license: CC-BY 4.0
-* updated: 2025-11-09
+* updated: 2025-11-11
 
 **Files**
 
